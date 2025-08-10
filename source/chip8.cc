@@ -402,6 +402,7 @@ void CHIP8::cycle() noexcept {
 #ifdef WIN32
       Beep(523, 500);
 #endif
+      std::cout << "Beep!\a" << std::endl;
       --sound;
     }
   }

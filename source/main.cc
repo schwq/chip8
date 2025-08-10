@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     return -1;
   }
 
-  std::cout << "[START]" << NEWLINE;
+  std::cout << "[START] Loaded: " << argv[1] << NEWLINE;
 
   CHIP8 chip = CHIP8();
 
